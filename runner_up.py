@@ -5,5 +5,5 @@ if __name__ == '__main__':
     arr = map(int, input().split())
 list1=list(arr)
 first=max(set(list1))
-runnerup=set(list1)-{first}
-print(max(runnerup))
+runner_up=set(list1)-{first}
+print(max(runner_up))
