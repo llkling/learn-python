@@ -40,14 +40,14 @@ A: Digital Images (The Matrix)
     When you look at a digital photo, you see a picture.
 - Coding World: 
     The computer sees a Matrix where every cell is a number representing a pixel's brightness.
-- * Linear Algebra in Action: 
+- *Linear Algebra in Action*: 
     When you apply a "Brighten" filter, the code doesn't loop through every pixel. It performs Matrix Addition, adding a value (e.g., $+10$) to the entire grid at once.
 
 B: Recommendation Engines (The Dot Product)
 - Outside World: 
     Netflix suggests a movie because "Users who liked Inception also liked The Matrix."
 - Coding World: Your interests are stored as a Vector (a list of 1s and 0s for movies you liked).
-- * Linear Algebra in Action: 
+- *Linear Algebra in Action*: 
     To find a "match," the code calculates the Dot Product between your vector and another user's vector. The higher the resulting number, the closer the match.
 
 C: Navigation & GPS
@@ -55,13 +55,13 @@ C: Navigation & GPS
     You rotate a map on your phone to see which way you are facing.
 - Coding World: 
     Your location is a vector.
-- * Linear Algebra in Action: 
+- *Linear Algebra in Action*: 
     To rotate the map, the phone multiplies your location vector by a Rotation Matrix. This instantly calculates the new coordinates for every street and icon on your screen.
 
   ### 1. Inner or Dot Product of Two n-vectors
 To find a Dot Product: 
     __Multiply__ the corresponding components (1st to 1st, 2nd to 2nd) and the __Add__ them up
-    Mathematically, if $A = [a_1, a_2]$ and $B = [b_1, b_2]$, the dot product is:
+Mathematically, if $A = [a_1, a_2]$ and $B = [b_1, b_2]$, the dot product is:
             $$A \cdot B = (a_1 \times b_1) + (a_2 \times b_2)$$
 
 In NumPy, we use: 
